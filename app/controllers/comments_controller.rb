@@ -28,7 +28,7 @@ class CommentsController < ApplicationController
 
 	def destroy
 		@comment.destroy
-		render json: { message: 'Post was successfully deleted' }
+		render json: { message: 'Comment was successfully deleted' }
 		head :no_content
 	end
 
